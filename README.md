@@ -44,7 +44,7 @@ def home(request):
     #     pass 
     # if request.method == "GET":
     #     pass
-<pre>
+</pre>
 
 9. Core/urls.py 
 <pre>
