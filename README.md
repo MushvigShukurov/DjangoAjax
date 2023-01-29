@@ -13,7 +13,7 @@ Django-da AJAX istifadəsi
 
 # A-Z izah
 
-`Video IZAH` : (https://youtu.be/ecYBYenVedk)
+> `Video IZAH` : (https://youtu.be/ecYBYenVedk)
 
 1. `python -m venv myvenv` ilə venv yükləyirik
 2. "CTRL + SHIFT + P" kombinasiyası ilə menyunu açıb Python Select İnterpreter yazırıq
