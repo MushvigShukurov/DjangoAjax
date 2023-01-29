@@ -21,7 +21,7 @@ Django-da AJAX istifadəsi
 6. Core/settings.py INSTALLED_APPS[..., 'Home.apps.HomeConfig',] 
 7. 'templates' folderi yaradıb, Core/settings.py Templates ["DIRS":"templates"] yazırıq
 8. Home/views.py faylında :
-`
+<pre>
 from django.shortcuts import render
 from django.http import JsonResponse
 def home(request):
@@ -42,4 +42,4 @@ def home(request):
     #     pass 
     # if request.method == "GET":
     #     pass
-`
+<pre>
