@@ -13,6 +13,8 @@ Django-da AJAX istifadəsi
 
 # A-Z izah
 
+`Video IZAH` : (https://youtu.be/ecYBYenVedk)
+
 1. `python -m venv myvenv` ilə venv yükləyirik
 2. "CTRL + SHIFT + P" kombinasiyası ilə menyunu açıb Python Select İnterpreter yazırıq
 3. Enter İnterpreter Path + Browse your file... + myvenv/Scripts/python.exe seçirik
@@ -43,3 +45,15 @@ def home(request):
     # if request.method == "GET":
     #     pass
 <pre>
+
+9. Core/urls.py 
+<pre>
+from django.contrib import admin
+from django.urls import path
+from Home.views import home
+# localhost:8000
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',home,name="home"),
+]
+</pre>
