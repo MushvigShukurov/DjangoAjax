@@ -61,7 +61,7 @@ urlpatterns = [
 
 10. Templates/index.html faylı yaradırıq
 11. index.html faylında :
-<pre>
+```
 <!doctype html>
 <html lang="en">
   <head>
@@ -96,4 +96,4 @@ urlpatterns = [
     </script>
 </body>
 </html>
-</pre> 
+```
